@@ -1,0 +1,251 @@
+/*========= GERAL =========*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'arial';
+}
+
+.container {
+	max-width: 1152px;
+/*	background: cyan;*/
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+/*======== SEÇÃO 1 =========*/
+
+.blocoFigura {
+	width: 370px;
+	margin: 50px 21px 0 0;
+}
+
+.blocoFigura:last-child {
+	margin: 50px 0 0 0;
+}
+
+.blocoFigura figure {
+	margin: 0;
+}
+
+.blocoFigura img {
+	max-width: 100%;
+}
+
+.blocoFigura h2 {
+	margin: 5px 0 0 0;
+	text-align: center;
+}
+
+.blocoFigura a {
+	text-decoration: none;
+	color: #2593D1;
+	opacity: 1;
+	transition: opacity 0.2s, color 0.2s;
+}
+
+.blocoFigura a:hover {
+	opacity: 0.7;
+	transition: opacity 0.2s, color 0.2s;
+}
+
+/*======== SEÇÃO 2 =========*/
+
+.margemSecao2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.secao2h3 {
+	margin: 0 auto;
+	font-size: 36px;
+}
+
+/*======== SEÇÃO 3 =========*/
+
+article {
+	width: 565px;
+	margin-right: 22px;
+	text-align: justify;
+}
+
+article:last-child {
+	margin-right: 0;
+}
+
+/*======== RODAPÉ =========*/
+
+footer {
+	background: #24388B;
+	padding: 30px 0;
+	margin-top: 20px;
+}
+
+.divRodape {
+	width: 270px;
+	margin-right: 24px;
+}
+
+.divRodape:last-child {
+	margin-right: 0;
+}
+
+.divImagem {
+	text-align: center;
+}
+
+.divImagem img {
+	margin-bottom: 30px;
+}
+
+.divImagem img:last-child {
+	margin-bottom: 0;
+}
+
+.divRodapeImagem {
+	margin-bottom: 36px;
+}
+
+.divRodape p {
+	color: #BDC3DC;
+	margin: 0 0 30px 0;
+}
+
+.divRodape p:last-child {
+	margin-bottom: 0;
+}
+
+.divRodape p.pLink {
+	font-weight: bold;
+	color: #FFF;
+}
+
+.divRodape p.pMargem {
+	margin-bottom: 5px;
+}
+
+.divRodape p:first-child {
+	margin-top: 100px;
+}
+
+.divSvg {
+	margin-right: 15px;
+	margin-bottom: 60px;
+}
+
+.divSvg:last-child {
+	margin-right: 0;
+}
+
+/*======== INTERNAS =========*/
+
+.interna {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.legenda {
+	width: 580px;
+	text-align: justify;
+	font-size: 20px;
+	margin: 0;
+}
+
+.figuraLegenda {
+	width: 552px;
+	margin: 0;
+}
+
+.figuraLegenda img {
+	max-width: 100%;
+}
+
+/*======== CONTATO =========*/
+
+.mapa {
+	width: 1152px;
+	height: 450px;
+	border: none;
+	margin: 0 0 50px 0;
+}
+
+form {
+	width: 1152px;
+}
+
+.blocoFormPrincipal {
+	display: block;
+	width: 1152px;
+	font-size: 16px;
+}
+
+.blocoFormInline {
+	display: inline-block;
+	width: 571px;
+	margin: 10px 0;
+}
+
+.blocoFormInline:last-child {
+	margin-right: 0;
+}
+
+.blocoFormInline input[type="text"], .blocoFormInline input[type="number"], .blocoFormInline input[type="email"], .blocoFormInline input[type="password"] {
+	background: #a6a6ab;
+	padding: 5px;
+	font-size: 16px;
+	border: none;
+	box-shadow: 2px 2px 2px #8E8E8E;
+	width: 561px;
+}
+
+.blocoFormTextArea {
+	display: inline-block;
+	width: 1152px;
+	margin: 10px 0;
+}
+
+.blocoFormTextArea textarea {
+	background: #a6a6ab;
+	padding: 5px;
+	font-size: 16px;
+	border: none;
+	box-shadow: 2px 2px 2px #8E8E8E;
+	width: 1142px;
+	font-family: 'arial';
+	height: 200px;
+}
+
+.blocoFormInline input[type="submit"] {
+	cursor: pointer;
+	background:#a6a6ab;
+	color: #fff;
+	padding: 10px;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #8E8E8E;
+	margin: 0 0 10px 0;
+	transition: background 0.3s;
+}
+
+.blocoFormInline input[type="submit"]:hover {
+	transition: background 0.3s;
+	background: #76de93;
+}
+.ifram3{
+    margin-left: 22em;
+}
+form {
+	margin-left: 150px;
+}
+/*--- Header---*/
+header nav{
+    margin-left: 100px;
+}
+.resgate{
+	text-align: center;
+	margin-top: 30px;
+}

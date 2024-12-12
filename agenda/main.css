@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.paragrafo {
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 800px; /* Limita a largura máxima do parágrafo */
+    border-left: 5px solid #000000; /* Borda à esquerda */
+    border-right: 5px solid #000000; /* Borda à direita */
+    background-color: #f9f9f9d6; /* Cor de fundo */
+}
+.img{
+
+    display: flex;
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    gap: 20px; /* Espaçamento entre as imagens */
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+/* -----------tabela------------- */
+
+.table img{
+    max-width: 25px;
+    margin-left: 11px;
+}
+.table{
+    max-width: 900px;
+    margin-left: 20rem;
+    margin-top: 50px;
+}
+/* -------------- */
+.agenda-semanal p{
+    padding-top: 30px;
+    text-align: center;
+    font-size: large;
+    color: cadetblue;
+}

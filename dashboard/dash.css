@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    height: 200vh; /* tamano da pagina*/
+}
+
+nav.menu-lateral{  /*menu lateral*/
+    width: 85px;
+    height: 100%;
+    background-color: #202025;
+    padding: 40px 0 40px 1%;
+
+    position: fixed; /*manter o menu lateral fixo (position, top, left)*/
+    top: 0;
+    left: 0;   
+    overflow: hidden; /* para deixar letras escondidas ao fechar o menu*/
+    transition: 1.2s;
+}
+
+nav.menu-lateral.expandir{
+    width: 250px;
+}
+
+nav.menu-lateral .btn-expandir { 
+    position: fixed; /* Fixa o icone menu de expandir no lugar esquedo */
+    top: 7px; 
+    left: 19px; 
+   
+}
+
+.btn-expandir > i{
+    width: 100%;
+    padding-left: 30px; /*alinhamento de itens*/
+}
+.btn-expandir > i{  /* cor do icone do menu lateral*/
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;  /* icones e sumir bolinas do icones*/
+    list-style-type: none;
+}
+ul li.item-menu:hover{ /* mudar com quando passar mouse por cima*/
+    background: #383841;
+}
+ul li.item-menu{
+    transition: 1.2s;
+}
+ul li.ativo{
+    background-color: #383841;
+}
+ul li.item-menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 25px;
+    line-height: 40px; /* alinhamento dos icones com nomes*/
+}
+ul li.item-menu a .txt-link{
+    margin-left: 30px;
+}
+ul li.item-menu a.icon > i{
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+
+
+/* NAV Link parte superior*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#ffffffe4;
+    height: 50px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 0 30px 10px 0;
+    font-size: 16pt;
+    position: relative;
+}
+
+nav a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: #9898c0b9;
+    transition: width 0.3s ease;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.6s ease-in-out;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+/* Alinhamento do main da minha pagina*/
+
+.pgum{
+    text-align: center;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+}
+
+main p{
+    text-align: center;
+    height: 25px;
+    font-size: 30px;
+}
+
+         /* -------Footer------- */
+
+
+/* O ' * ' é um seletor universal */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+.interface{
+    max-width: 1290px; /*lagura maxima da class vai ser 1280px*/
+    margin: 0 auto;   /* posicionar os elementos no centro da tela*/
+}
+
+footer{
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0 10px 0;
+    
+}
+footer .line-footer1{
+    text-align: center;
+    border-bottom: 1px solid #fff; /*linha e espaçamento*/
+    padding-bottom: 40px;
+}
+.line-footer1 h2{
+    font-size: 2.5rem;
+}
+.line-footer1 p{
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+.line-footer1 form{
+    display: flex;
+    align-items: center; /* Alinhar o input ao centro*/
+    justify-content: center;
+}
+.line-footer1 form input[type=email]{
+ width: 300px;
+ height: 40px;
+ background: transparent;
+ border: 2px solid #fff;
+ color: #fff;
+ padding: 10px;
+ outline:0;
+}
+.line-footer1 form input[type=submit]{
+    width: 80px;
+    height: 40px;
+    background-color: #fff;
+    border: 0;
+    color: #000000;
+    cursor: pointer;
+}
+.line-footer1 form input[type=submit]:hover{
+    background-color:#fff;
+    color: rgb(103, 202, 71);
+    transition: .3s;
+}
+footer .line-footer2{
+    padding: 40px 0 ;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+}
+footer .line-footer2.box-line-footer{
+    max-width: calc(100% / 5);
+}
+
+footer .box-line-footer img{
+    max-width: 200px;
+    margin: 10px;
+}
+
+.line-footer2 .box-line-footer h3{
+    color: #5f5f69;
+    margin-bottom: 20px;
+    font-size: 22px;
+
+}
+.line-footer2 .box-line-footer a{
+    color: #fff;
+    display: block; /*alinhamento dos links em coluna*/
+    margin-bottom: 20px;
+    text-decoration: none; /*tirar sombreado do texto*/
+    font-size: .9rem;
+}
+.box-line-footer .btn-redes a{
+    display: inline; /* alinhar icones em linha*/
+
+}
+.box-line-footer .btn-redes button{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.box-line-footer .btn-redes button:hover{
+    background-color:#383841;
+    border-color:#383841;
+    transition: .2s;
+}
+footer .line-footer3{
+    padding-top: 40px;
+    text-align: center;
+}
+/*--- Header---*/
+header nav{
+    margin-left: 100px;
+}
